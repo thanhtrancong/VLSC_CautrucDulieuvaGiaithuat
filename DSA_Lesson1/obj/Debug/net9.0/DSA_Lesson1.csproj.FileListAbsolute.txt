@@ -1,0 +1,14 @@
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.AssemblyInfoInputs.cache
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.AssemblyInfo.cs
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.csproj.CoreCompileInputs.cache
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/bin/Debug/net9.0/DSA_Lesson1
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/bin/Debug/net9.0/DSA_Lesson1.deps.json
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/bin/Debug/net9.0/DSA_Lesson1.runtimeconfig.json
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/bin/Debug/net9.0/DSA_Lesson1.dll
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/bin/Debug/net9.0/DSA_Lesson1.pdb
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.dll
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/refint/DSA_Lesson1.dll
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.pdb
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.genruntimeconfig.cache
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/ref/DSA_Lesson1.dll
