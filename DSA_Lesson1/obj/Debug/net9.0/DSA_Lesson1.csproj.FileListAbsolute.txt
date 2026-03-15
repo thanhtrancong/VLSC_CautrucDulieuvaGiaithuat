@@ -12,3 +12,4 @@
 /Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.pdb
 /Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.genruntimeconfig.cache
 /Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/ref/DSA_Lesson1.dll
+/Users/macbook/VLSC_DataStructure Algorithm/DSA_Lesson1/obj/Debug/net9.0/DSA_Lesson1.sourcelink.json
