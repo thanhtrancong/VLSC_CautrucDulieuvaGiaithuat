@@ -9,11 +9,11 @@ class Program
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         // --- BÀI TẬP 2: SO SÁNH THỰC TẾ VỚI 10 TRIỆU PHẦN TỬ ---
-        int n = 10000000; // 10 triệu phần tử
+        int n = 1000000000; // 10 triệu phần tử
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = i; // Khởi tạo mảng đã sắp xếp
 
-        int target = 9999999; // Tìm phần tử cuối cùng (Trường hợp xấu nhất)
+        int target = n - 1; // Tìm phần tử cuối cùng (Trường hợp xấu nhất)
         Stopwatch sw = new Stopwatch();
 
         Console.WriteLine($"--- Thử nghiệm với {n} phần tử ---");
