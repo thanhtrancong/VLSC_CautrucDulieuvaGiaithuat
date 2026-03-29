@@ -31,6 +31,16 @@ class Program {
         } else {
             Console.WriteLine("Khong the chia cho 0!");
         }
+//         Bài 3: Kỹ thuật Hoán đổi (Swap)
+// •	Yêu cầu: Cho 2 biến x=5, y=10. Hãy đổi giá trị của chúng để x=10, y=5.
+// •	Hướng dẫn: Hãy tưởng tượng em có 2 ly nước xanh và đỏ, 
+// để đổi nước cho nhau em cần thêm 1 ly rỗng (biến temp).
+        int x = 5, y = 10;
+        Console.WriteLine($"Truoc khi swap: x={x}, y={y}");
+        int temp = x; // temp = 5
+        x = y; // x = 10
+        y = temp; // y = 5
+        Console.WriteLine($"Sau khi swap: x={x}, y={y}");
 
     }
 }
