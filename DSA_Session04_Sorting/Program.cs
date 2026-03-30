@@ -14,13 +14,20 @@ class Program {
         int n = int.Parse(Console.ReadLine());
         // Khởi tạo mảng và nhập giá trị
         int[] arr = new int[n];
-        Console.WriteLine("Nhap cac phan tu:");
-        // Sử dụng vòng lặp để nhập giá trị cho mảng
+        // Console.WriteLine("Nhap cac phan tu:");
+        // // Sử dụng vòng lặp để nhập giá trị cho mảng
+        // for (int i = 0; i < n; i++) {
+        //     Console.Write($"arr[{i}]: ");
+        //     // Sử dụng Console.ReadLine() để gán giá trị cho mảng
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+        // Khởi tạo mảng với các giá trị mẫu ngẫu nhiên
+        Random rand = new Random();
         for (int i = 0; i < n; i++) {
-            Console.Write($"arr[{i}]: ");
-            // Sử dụng Console.ReadLine() để gán giá trị cho mảng
-            arr[i] = int.Parse(Console.ReadLine());
+            arr[i] = rand.Next(1, 100); // Sinh số ngẫu nhiên từ 1 đến 99
         }
+        // bổ sung thêm tính năng tính thời gian thực thi của thuật toán sắp xếp
+        var watch = System.Diagnostics.Stopwatch.StartNew();
         // Gọi hàm Bubble Sort để sắp xếp mảng
         //BubbleSort(arr);
         Console.WriteLine("Mang sau khi sap xep:");
@@ -30,6 +37,9 @@ class Program {
         InsertionSort(arr);
         Console.WriteLine("Mang sau khi sap xep bang Insertion Sort:");
         PrintArray(arr);
+        watch.Stop();
+        var elapsedMs = watch.ElapsedMilliseconds;
+        Console.WriteLine($"Thoi gian thuc thi: {elapsedMs} ms");
     }
 // Hàm Bubble Sort
     static void BubbleSort(int[] arr) {
