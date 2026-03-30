@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 // Author: Nguyễn Văn A - MSSV: 20200123
 // Mục tiêu: Học cách sử dụng các thuật toán sắp xếp cơ bản: Bubble Sort, Selection Sort, Insertion Sort.
 class Program {
