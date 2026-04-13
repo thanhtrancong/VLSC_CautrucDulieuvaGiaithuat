@@ -1,13 +1,27 @@
 ﻿using System;
+// Lớp đại diện cho 1 sinh viên
+public class Student
+{
+    public string Id { get; set; }
+    public string Name { get; set; }
 
+    public Student(string id, string name) {
+        Id = id;
+        Name = name;
+    }
+
+    public override string ToString() {
+        return $"Student(Id: {Id}, Name: {Name})";
+    }
+}
 // Lớp đại diện cho 1 phần tử (Node)
 public class DoubleNode {
-    public int Data;
+    public Student student;
     public DoubleNode Prev;
     public DoubleNode Next;
 
-    public DoubleNode(int data) {
-        Data = data;
+    public DoubleNode(Student student) {
+        this.student = student;
         Prev = null;
         Next = null;
     }
@@ -24,8 +38,8 @@ public class DoubleLinkedList {
     }
 
     // Thêm phần tử vào cuối (Add Last)
-    public void AddLast(int data) {
-        DoubleNode newNode = new DoubleNode(data);
+    public void AddLast(Student student) {
+        DoubleNode newNode = new DoubleNode(student);
         
         if (Head == null) {
             Head = Tail = newNode;
@@ -42,7 +56,7 @@ public class DoubleLinkedList {
         DoubleNode current = Head;
         Console.Write("Tiến: null <-> ");
         while (current != null) {
-            Console.Write($"{current.Data} <-> ");
+            Console.Write($"{current.student} <-> ");
             current = current.Next;
         }
         Console.WriteLine("null");
@@ -53,7 +67,7 @@ public class DoubleLinkedList {
         DoubleNode current = Tail;
         Console.Write("Lùi: null <-> ");
         while (current != null) {
-            Console.Write($"{current.Data} <-> ");
+            Console.Write($"{current.student} <-> ");
             current = current.Prev;
         }
         Console.WriteLine("null");
@@ -63,9 +77,9 @@ public class DoubleLinkedList {
 class Program {
     static void Main() {
         DoubleLinkedList list = new DoubleLinkedList();
-        list.AddLast(10);
-        list.AddLast(20);
-        list.AddLast(30);
+        list.AddLast(new Student("250011459", "Hải"));
+        list.AddLast(new Student("250011460", "Hoàng"));
+        list.AddLast(new Student("250011461", "Duy"));
 
         list.PrintForward();
         list.PrintBackward();
