@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session04_Sorting", "DS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session05_Basics", "DSA_Session05_Basics\DSA_Session05_Basics.csproj", "{30CAE9DF-C1C0-4839-AC1A-5C759C603C11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session05_Sorting", "DSA_Session05_Sorting\DSA_Session05_Sorting.csproj", "{8DA4823F-D39F-4691-AF28-7DF3153896F1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session05_Sortings", "DSA_Session05_Sortings\DSA_Session05_Sortings.csproj", "{7278DE96-C819-4DEA-A5B8-24685B7CDA52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session06_Basics", "DSA_Session06_Basics\DSA_Session06_Basics.csproj", "{5E0ED0ED-99B4-4C9B-9CC5-09CE3C2885E8}"
