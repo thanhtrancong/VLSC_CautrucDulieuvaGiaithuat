@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session07_Basics", "DSA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session07_SingleLinkedList", "DSA_Session07_SingleLinkedList\DSA_Session07_SingleLinkedList.csproj", "{1A1AD7A5-1067-4EAB-98CB-3724BEE765A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Session08_DoubleLinkedList", "DSA_Session08_DoubleLinkedList\DSA_Session08_DoubleLinkedList.csproj", "{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,18 @@ Global
 		{1A1AD7A5-1067-4EAB-98CB-3724BEE765A4}.Release|x64.Build.0 = Release|Any CPU
 		{1A1AD7A5-1067-4EAB-98CB-3724BEE765A4}.Release|x86.ActiveCfg = Release|Any CPU
 		{1A1AD7A5-1067-4EAB-98CB-3724BEE765A4}.Release|x86.Build.0 = Release|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Debug|x64.Build.0 = Debug|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Debug|x86.Build.0 = Debug|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Release|x64.ActiveCfg = Release|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Release|x64.Build.0 = Release|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Release|x86.ActiveCfg = Release|Any CPU
+		{C693FCC0-21D7-4AB9-8C62-7886BABD7AAB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
