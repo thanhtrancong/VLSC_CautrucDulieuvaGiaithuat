@@ -2,6 +2,7 @@
 // Lớp đại diện cho 1 sinh viên
 public class Student
 {
+    //mã sinh viên, tên sinh viên
     public string Id { get; set; }
     public string Name { get; set; }
 
